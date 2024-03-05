@@ -19,6 +19,7 @@ public class Taksimetre {
 
         double km;
         double tutar;
+        double acilis=10;
 
 
         Scanner input=new Scanner(System.in);
@@ -27,7 +28,7 @@ public class Taksimetre {
 
         km=input.nextDouble();
 
-        tutar = km*2.20;
+        tutar = acilis+km*2.20;
 
         if (tutar<=20)
         {
