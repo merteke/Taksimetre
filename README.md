@@ -1,0 +1,2 @@
+# Taksimetre
+Taksimetre hesaplayan program
