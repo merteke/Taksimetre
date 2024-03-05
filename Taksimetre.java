@@ -17,18 +17,19 @@ public class Taksimetre {
 
     public static void main(String[] args){
 
-        double km;
+        int km;
         double tutar;
         double acilis=10;
+        double artis_mik=2.20;
 
 
         Scanner input=new Scanner(System.in);
 
         System.out.print("Lutfen gidilen mesafeyi giriniz:");
 
-        km=input.nextDouble();
+        km=input.nextInt();
 
-        tutar = acilis+km*2.20;
+        tutar = acilis+km*artis_mik;
 
         if (tutar<=20)
         {
