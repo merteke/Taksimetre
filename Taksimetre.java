@@ -29,13 +29,13 @@ public class Taksimetre {
 
         tutar = km*2.20;
 
-        if (tutar<=20){
-            tutar=20;
-            System.out.println("Odenecek tutar="+tutar);
+        if (tutar<=20)
+        {
+            System.out.println("Odenecek tutar=20TL");
         }
-        else{
-            System.out.println("Odenecek tutar="+tutar);
-
+        else
+        {
+            System.out.println("Odenecek tutar="+tutar+"TL");
         }
 
 
